@@ -22,6 +22,16 @@
       "type": "component",
       "repeatable": false,
       "component": "share-seo.seo"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
