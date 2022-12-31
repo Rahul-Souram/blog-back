@@ -26,6 +26,12 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "genre"
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::author.author",
+      "inversedBy": "genres"
     }
   }
 }
